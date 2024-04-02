@@ -1,18 +1,22 @@
-# Task 1: Hello World App
+# Task 2: Button Interaction
 
-Objective: Build a basic Android app with a
-welcome message.
+Objective: Enhance the app with button interaction.
 
 Steps:
-1.Create a new Android project:
+1.Add a button:
 
-Open Android Studio and start a new
-project.
-Choose an empty activity template.
+In the XML layout file, add a Button element.
+Set an ID for the button for easy reference in
+code.
 
-2.Design the layout:
+2.Implement a click listener:
 
-Open the XML layout file
-(activity_main.xml).
-Add a TextView element to display "Hello
-World."
+In the Java code (MainActivity.java), get a
+reference to the button using its ID.
+Set a click listener on the button to respond to
+clicks.
+
+3.Display a simple message:
+
+Inside the click listener, use a Toast to display a
+message when the button is clicked.
